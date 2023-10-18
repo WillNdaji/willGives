@@ -1,0 +1,203 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    padding: 100px 200px;
+    font-family: 'Montserrat', sans-serif;
+    color: #717E95;
+}
+
+.sign-in{
+    width: 600px ;
+    margin-top: 0;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sign-in form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;   
+    width: 600px;
+ 
+}
+
+.sign-in form h3{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: black;
+   
+
+}
+
+form p{
+    margin-top: 0;
+    font-size: 20px;
+    width: 380px;
+    margin-left: 100px;
+}
+
+#email, #password{
+    width: 588px;
+    height: 56px;
+    padding-left: 20px;
+}
+
+#checkbox{
+    /* margin-left: -330px; */
+    height: 24px;
+    width: 20px;
+    font-weight: lighter;
+    margin-right: 5px;
+    
+
+}
+
+
+#submit{
+    justify-content:flex-end;
+    padding: 15px;
+    width: 139px;
+    margin-left: auto;
+    background: #1C39BB;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+#submit:hover{
+    background: white;
+    color: #1C39BB;
+    border: 1px solid #1C39BB;
+}
+
+.sign-in-alt{
+    margin-top: 20px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sign-in-alt a{
+    text-decoration: none;
+    color: #1C39BB;
+}
+
+.sign-in-alt a:hover{
+    color: blue;
+}
+
+.org{
+    font-weight: 600;
+}
+
+@media screen and (min-width: 320px) and (max-width: 1200px) {
+    body {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        /* padding: 20px;  */
+        font-family: 'Montserrat', sans-serif;
+        color: #717E95;
+        /* min-width: 100%;
+        max-width: 100%; */
+       
+        overflow: hidden;
+        
+    }
+    
+    .sign-in {
+        width: 100%; /* Use full width for smaller screens */
+        text-align: center; /* Center content */
+        margin-top: 30px;
+        /* margin-bottom: auto; */
+        margin-left: 0;
+        margin-right: auto;
+        padding: 20px; 
+      /* Add padding for spacing */
+        /* box-shadow: 0px 0px 10px rgba(195, 195, 195, 0.2); */
+    }
+    
+    .sign-in form {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        width: 100%; /* Use full width for smaller screens */
+        
+    }
+    
+    .sign-in form h3 {
+        text-align: center;
+        font-weight: bolder;
+        font-size: 32px; /* Adjust font size for smaller screens */
+        margin-bottom: 20px;
+    }
+    
+    form p {
+        margin-top: 0;
+        font-size: 16px; /* Adjust font size for smaller screens */
+        width: 100%; /* Use full width for smaller screens */
+        text-align: center; /* Center text */
+        margin-left: 0;
+    }
+    
+    #email, #password {
+        width:  85%; 
+        height: 48px; /* Adjust height for smaller screens */
+    }
+    
+    #submit {
+        margin-top: 15px;
+        padding: 12px; /* Adjust padding for smaller screens */
+        width: 100px; /* Adjust width for smaller screens */
+        margin-left: 150px;
+        margin-right: auto; /* Center the button */
+        margin-bottom: 0;
+    }
+    
+    .sign-in-alt {
+        margin-top: 20px;
+        width: 100%; /* Use full width for smaller screens */
+        text-align: center; /* Center content */
+    }
+    
+    .sign-in-alt a {
+        text-decoration: none;
+        color: #1C39BB;
+    }
+    
+    .sign-in-alt a:hover {
+        color: blue;
+    }
+    
+    .org {
+        margin-top: 10px;
+        font-weight: 600;
+        font-size: 15px;
+        margin-left: 20px;
+        margin-right: auto;
+    }
+    .account{
+        margin-right: 25px;
+        margin-top: 5px;
+    }
+
+    .checkbox{
+        margin-top: 10px;
+        margin-right: auto;
+        
+    }
+
+   
+    
+    
+    
+}
