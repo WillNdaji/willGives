@@ -1,11 +1,9 @@
-html{
-    overflow-x:hidden;
-}
+
 
 body{
      overflow-x:hidden;
     padding: 0;
-    margin: 100px 150px;
+    margin: 0 150px;
     box-sizing: border-box;
     font-family: "Montserrat", sans-serif;
     
@@ -350,6 +348,10 @@ span{
     html{
          overflow-x:hidden;
     }
+
+    .logo{
+    width: 150px;
+}
     body {
         margin: 20px; 
         overflow-x: hidden;
