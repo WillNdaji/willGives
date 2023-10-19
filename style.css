@@ -1,5 +1,6 @@
 html{
     scroll-behavior: smooth;
+     overflow-x: hidden;
 }
 
 body{
@@ -721,7 +722,7 @@ footer p{
 
 @media screen and (min-width: 320px) and (max-width: 1200px) {
 
-    body{
+    html, body{
         overflow-x: hidden;
     }
     
